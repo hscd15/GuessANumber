@@ -1,6 +1,6 @@
 /**
  * @description The purpose of this app is to do battle with the SIR-Standard Information Retrieval unit known as Gir.
- * You, the player has to guess any number between 1-1000, you have a total of 15 guesses before Gir wins,
+ * You, the player has to guess any number between 1-1000, you have a total of 10 guesses before Gir wins,
  * @author {saad0033@algonquinlive.com}
  */
 
