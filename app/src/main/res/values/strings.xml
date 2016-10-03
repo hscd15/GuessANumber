@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Guess A Number</string>
+    <string name="action_about">About Us</string>
+    <string name="action_author">Hassan Saad (saad0033@algonquinlive.com)</string>
+    <string name="img_description">Gir the crazy standard information retrieval unit from Invader Zim.</string>
+    <string name="gir_one">Chicken! I\'m gonna eat you!</string>
+    <string name="gir_two">Where is my moose?</string>
+    <string name="gir_three">What\, a game? YAY!</string>
+    <string name="input_guess">Input your guess</string>
+    <string name="play_btn">Click to Play</string>
+    <string name="reset_btn">Reset Game</string>
+</resources>
