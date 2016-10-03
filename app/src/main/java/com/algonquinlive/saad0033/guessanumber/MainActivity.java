@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
                         if (UserGuess > 1 && UserGuess < 1000) {
                             if (UserGuess == theNumber) {
                                 if (userCount > 10) {
-                                    Toast.makeText(getApplicationContext(), "You lost", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(getApplicationContext(), "Out of guesses, you lose.", Toast.LENGTH_SHORT).show();
                                     resetGame();
                                 } else if (userCount <= 5) {
                                     Toast.makeText(getApplicationContext(), "You have a superior win!", Toast.LENGTH_SHORT).show();
@@ -69,15 +69,15 @@ public class MainActivity extends AppCompatActivity {
                                     resetGame();
                                 }
                             } else if (UserGuess > theNumber) {
-                                if (userCount > 10) {
-                                    Toast.makeText(getApplicationContext(), "You lost", Toast.LENGTH_SHORT).show();
+                                if (userCount == 10) {
+                                    Toast.makeText(getApplicationContext(), "Out of guesses, you lose.", Toast.LENGTH_SHORT).show();
                                     resetGame();
                                 } else {
                                     Toast.makeText(getApplicationContext(), "Your guess is too high!", Toast.LENGTH_SHORT).show();
                                 }
                             } else if (UserGuess < theNumber) {
-                                if (userCount > 10) {
-                                    Toast.makeText(getApplicationContext(), "You lost", Toast.LENGTH_SHORT).show();
+                                if (userCount == 10) {
+                                    Toast.makeText(getApplicationContext(), "Out of guesses, you lose.", Toast.LENGTH_SHORT).show();
                                     resetGame();
                                 } else {
                                     Toast.makeText(getApplicationContext(), "Your guess is too low!", Toast.LENGTH_SHORT).show();
